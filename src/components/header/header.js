@@ -1,6 +1,6 @@
 
 import './header.scss'
-import image from '../images/APRESENTAÇÃO_STACKLINK-ai-brush-removebg-pwzqqew.png'
+
 import { useNavigate } from 'react-router-dom';
  
 
@@ -22,7 +22,7 @@ function Header() {
                 <img
                  className='sLaB' 
                  onClick={()=>nav('/')} 
-                 src={image}
+                 src='../images/APRESENTAÇÃO_STACKLINK-ai-brush-removebg-pwzqqew.png'
                  alt=''
                 />
                
