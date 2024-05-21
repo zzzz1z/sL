@@ -22,7 +22,7 @@ function Header() {
                 <img
                  className='sLaB' 
                  onClick={()=>nav('/')} 
-                 src='../images/APRESENTAÇÃO_STACKLINK-ai-brush-removebg-pwzqqew.png'
+                 src='./images/logo.png'
                  alt=''
                 />
                

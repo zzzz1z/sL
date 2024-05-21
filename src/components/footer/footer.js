@@ -9,7 +9,7 @@ function Footer() {
                 <img
                  className='sLa' 
                  onClick={()=>{}} 
-                 src='../images/APRESENTAÇÃO_STACKLINK-ai-brush-removebg-pwzqqew.png'
+                 src='/images/logo.png'
                  alt=''
                 />
                
