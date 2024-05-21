@@ -1,6 +1,6 @@
 
 import './footer.css'
-import image from '../images/APRESENTAÇÃO_STACKLINK-ai-brush-removebg-pwzqqew.png'
+
 
 function Footer() {
     return (
@@ -9,7 +9,7 @@ function Footer() {
                 <img
                  className='sLa' 
                  onClick={()=>{}} 
-                 src={image}
+                 src='../images/APRESENTAÇÃO_STACKLINK-ai-brush-removebg-pwzqqew.png'
                  alt=''
                 />
                

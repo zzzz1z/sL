@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
 import './contactos.css'
-import imagem from './images/cron.jpg'
+
 
 const Contactos = () => {
 
@@ -11,7 +11,7 @@ const Contactos = () => {
   return (
     <>
 
-    <img src={imagem} className='cronograma' alt=''
+    <img src='./images/cron.jpg' className='cronograma' alt=''
    
     />
       
