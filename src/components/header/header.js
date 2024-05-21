@@ -1,6 +1,5 @@
 
 import './header.scss'
-
 import { useNavigate } from 'react-router-dom';
  
 
@@ -22,7 +21,7 @@ function Header() {
                 <img
                  className='sLaB' 
                  onClick={()=>nav('/')} 
-                 src='./images/logo.png'
+                 src='/images/logo.png'
                  alt=''
                 />
                

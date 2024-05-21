@@ -10,8 +10,8 @@
    width: 100%;
    background-color: #000000;
    margin-bottom: 0;
-   min-width: 50%;
-   margin: 0px;
+   min-width: 70%;
+   margin: auto;
   
 }
 
@@ -24,8 +24,8 @@
 .caixaN{
     display: flex;
     align-items: center;
+    justify-content: center;
     
-    margin: auto;
    
    
 }
@@ -35,16 +35,16 @@
 
 .buttons{
     display: flex;
-    gap: 50px;
     justify-content: center;
     align-items: center;
-    margin: auto;
     height: 30px;
     margin-bottom: 0px;
     margin-top: 0px;
-    padding: 18px;
+    width: 100%;
     padding-bottom: 0px;
     padding-top: 0px;
+    margin: 0px;
+    padding: 0%;
     
 }
    
@@ -80,7 +80,6 @@ $color4: red;
 
 .btn {
 position: relative;
-padding: 1em 1.2em;
 border: none;
 background-color: transparent;
 cursor: pointer;

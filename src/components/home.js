@@ -13,7 +13,7 @@ function Home() {
     // Simulate loading for 2 seconds
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 2000);
   }, []);
   
 
@@ -25,13 +25,16 @@ function Home() {
     ) : (
       // Your application content goes here
     <>
-     <Header/>
+     
       <div className='Page'>
+        <Header/>
     
         <Body/>
+        
+        <Footer/>
     
       </div>
-     <Footer/>
+     
     </>
     )}
     </>

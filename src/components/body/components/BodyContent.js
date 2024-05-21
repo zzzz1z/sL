@@ -7,7 +7,7 @@ const BodyContent = () => {
     <div className='banner'>
 
       <div className='greet'>
-        Seja bem-vindo à stack_Link
+        <h2>Seja bem-vindo à stack_Link</h2>
       </div>
 
       

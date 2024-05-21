@@ -23,12 +23,14 @@ const About = () => {
       <Loading />
     ) : (
     <>
-     <Header/>
+     
      <div className='Page'>
+       <Header/>
        <Info/>
+       <Footer/>
      </div>
     
-     <Footer/>
+     
     </>
   )}
     

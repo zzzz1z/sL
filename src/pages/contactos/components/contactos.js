@@ -11,7 +11,7 @@ const Contactos = () => {
   return (
     <>
 
-    <img src='./images/cron.jpg' className='cronograma' alt=''
+    <img src='/images/cron.jpg' className='cronograma' alt=''
    
     />
       
@@ -40,7 +40,7 @@ const Contactos = () => {
         <ul className='lis'>
           <li>+244 925 868 401</li>
           <li>+244 953 635 492</li>
-          <li>info@stklnk.com </li>
+          <li>Email: info@stklnk.com </li>
           <li><a href='/'>www.stack-link.com</a></li>
         </ul>
       </div>
