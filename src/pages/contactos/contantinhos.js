@@ -23,11 +23,11 @@ const Contantinhos = () => {
       // Your application content goes here
       <>
        
-       <div className='Page'>
+       
         <Header/>
        <Contactos/>
        <Footer/>
-       </div>
+       
        
       </>
 
