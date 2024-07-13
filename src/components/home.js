@@ -7,7 +7,7 @@ import Loading from './Loading';
 
 
 function Home() {
-  const [isLoading, setIsLoading] = useState(true);
+ const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Simulate loading for 2 seconds
@@ -25,16 +25,12 @@ function Home() {
     ) : (
       // Your application content goes here
     <>
-     
-      <div className='Page'>
+      
         <Header/>
     
         <Body/>
         
-        <Footer/>
-    
-      </div>
-     
+        <Footer/> 
     </>
     )}
     </>

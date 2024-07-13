@@ -24,11 +24,11 @@ const About = () => {
     ) : (
     <>
      
-     <div className='Page'>
+     
        <Header/>
        <Info/>
        <Footer/>
-     </div>
+    
     
      
     </>
