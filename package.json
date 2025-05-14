@@ -1,5 +1,5 @@
 {
-  "name": "spotless-hungry-crocodile",
+  "name": "Stack Link",
   "version": "1.0.0",
   "description": "A next project generated based on a UIDL document",
   "main": "index.js",
@@ -12,11 +12,9 @@
   "author": "TeleportHQ",
   "license": "MIT",
   "dependencies": {
-    "dangerous-html": "0.1.13",
     "next": "^15.3.2",
     "next-intl": "^2.22.1",
     "nodemon": "^3.1.10",
-    "prop-types": "15.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
