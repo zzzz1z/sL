@@ -1,45 +1,26 @@
 {
-  "name": "tech",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-loading": "^2.0.3",
-    "react-router-dom": "^6.23.1",
-    "react-scripts": "5.0.1",
-    "react-slideshow-image": "^4.3.1",
-    "react-spinners": "^0.13.8",
-    "sass": "^1.77.1",
-    "tailwind-merge": "^2.3.0",
-    "use-router": "^0.4.2",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "spotless-hungry-crocodile",
+  "version": "1.0.0",
+  "description": "A next project generated based on a UIDL document",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "TeleportHQ",
+  "license": "MIT",
+  "dependencies": {
+    "dangerous-html": "0.1.13",
+    "next": "^15.3.2",
+    "next-intl": "^2.22.1",
+    "nodemon": "^3.1.10",
+    "prop-types": "15.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "engines": {
+    "node": ">=18.x"
   }
 }
